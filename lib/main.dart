@@ -6,7 +6,7 @@ import 'package:space_app/ui/planet_details/planet_details.dart';
 void main() {
   runApp(const MyApp());
 }
-
+//by jone
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
      routes:{
        LoginScreen.routeName:(_)=>LoginScreen(),
