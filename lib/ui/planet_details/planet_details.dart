@@ -48,12 +48,14 @@ class PlanetDetails extends StatelessWidget {
                           ),
                           Row(
                             children: [
-                              Text(
-                                "${planet.title}",
-                                style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 24,
-                                    color: ColorManager.tertiary),
+                              Expanded(
+                                child: Text(
+                                  "${planet.title}",
+                                  style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 24,
+                                      color: ColorManager.tertiary),
+                                ),
                               ),
                             ],
                           ),
